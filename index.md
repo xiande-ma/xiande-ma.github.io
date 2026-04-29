@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #ddd; padding-bottom: 15px; margin-bottom: 30px;">
-  <div style="font-size: 1.8em; font-weight: bold; color: #333;">马先德 (Xiande Ma)</div>
+  <div style="font-size: 1.4em;  color: #333;">Xiande Ma (马先德)</div>
   <div style="font-size: 1.1em;">
     <a href="/" style="text-decoration: none; color: #333; font-weight: bold;">Home</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
     <a href="/publications" style="text-decoration: none; color: #666;">Publications</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
