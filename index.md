@@ -3,33 +3,33 @@ layout: default
 ---
 
 <style>
-  /* 1. 彻底移除系统默认页眉，消除顶部顽固留白 */
+  /* 1. 彻底隐藏系统页眉，确保内容置顶 */
   header, .page-header, .site-header { display: none !important; }
   
-  /* 2. 布局：通过增加 max-width 让视野变宽，减少 padding-top 压缩顶部空白 */
+  /* 2. 布局：大比例视觉 */
   body {
     background-color: #ffffff !important;
-    max-width: 1050px; /* 大幅增加宽度，消除手机端浏览感 */
+    max-width: 1173px; /* 精准对齐 */
     margin: 0 auto;
-    padding: 10px 50px 50px 50px; /* 顶部仅留 10px 极窄空白 */
+    padding: 5px 40px 50px 40px; /* 顶部留白压缩到极致 (5px) */
     color: #000;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     line-height: 1.6;
   }
 
-  /* 3. 导航栏：实现横向拉伸，姓名变小不加粗 */
+  /* 3. 导航栏：姓名缩小、不加粗，位置整体上移 */
   .custom-nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     border-bottom: 1px solid #eeeeee;
-    padding-bottom: 8px;
-    margin-bottom: 35px;
+    padding-bottom: 6px;
+    margin-bottom: 30px; /* 减小下方间距 */
   }
 
   .nav-name {
-    font-size: 1.45em; /* 缩小姓名 */
-    font-weight: 400; /* 彻底取消加粗 */
+    font-size: 1.35em; /* 进一步缩小姓名，显得更精致 */
+    font-weight: 400; /* 纯自然字重，不加粗 */
     color: #000;
     letter-spacing: -0.2px;
   }
@@ -40,33 +40,33 @@ layout: default
 
   .nav-links a {
     text-decoration: none;
-    color: #555;
-    margin-left: 30px; /* 拉大链接间距 */
+    color: #444;
+    margin-left: 35px; /* 拉大横向间距，增加大气感 */
     transition: 0.2s;
   }
 
   .nav-links a:hover { color: #2e6cb2; }
 
-  /* 4. 图片容器：适度拉开距离 */
+  /* 4. 图片与文字间距优化 */
   .profile-container {
-    margin: 10px 0 45px 0;
+    margin: 10px 0 40px 0;
   }
 
   .caption {
     color: #bbb;
-    font-size: 0.8em;
+    font-size: 0.85em;
     margin-top: 10px;
   }
 
-  /* 5. 模块标题：统一纯黑不浮夸 */
+  /* 5. 模块标题：纯黑专业感 */
   h3 {
-    margin-top: 50px;
+    margin-top: 45px;
     font-size: 1.25em;
     font-weight: 600;
     color: #000;
   }
 
-  hr { border: 0; border-top: 1px solid #f2f2f2; margin: 40px 0; }
+  hr { border: 0; border-top: 1px solid #f2f2f2; margin: 35px 0; }
 </style>
 
 <div class="custom-nav">
@@ -79,7 +79,7 @@ layout: default
 </div>
 
 <div class="profile-container" align="center">
-  <img src="child.jpg" width="300" style="border-radius: 2px; box-shadow: 0 5px 20px rgba(0,0,0,0.03);">
+  <img src="child.jpg" width="310" style="border-radius: 2px; box-shadow: 0 5px 25px rgba(0,0,0,0.04);">
   <p class="caption">(Listening for that Nature Communications call... 📞)</p>
 </div>
 
