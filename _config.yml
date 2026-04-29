@@ -1,5 +1,12 @@
-title: 马先德 (Xiande Ma)
-description: Ph.D. Candidate @ Northeastern University
-theme: jekyll-theme-minimal
+# 网站基本信息
+title: "马先德 (Xiande Ma)"
+description: "Ph.D. Candidate @ Northeastern University | Materials Science"
+remote_theme: pages-themes/cayman@v0.2.0 # 主题
+
+# 社交链接（可选，不需要的直接删掉或留空）
 google_analytics: 
 show_downloads: false
+
+# 这里的配置是为了让 GitHub 渲染更稳定
+encoding: "utf-8"
+markdown: kramdown
