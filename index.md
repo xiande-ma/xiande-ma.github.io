@@ -4,15 +4,15 @@ layout: default
 
 <table style="width:100%; border:none !important; border-collapse:collapse !important; background-color:transparent !important; margin-bottom: 20px;">
   <tr style="border:none !important; background-color:transparent !important;">
-    <td style="border:none !important; padding:0; vertical-align:middle; background-color:transparent !important;">
-      <span style="font-size: 1.8em; font-weight: bold; color: #222;">马先德 (Xiande Ma)</span>
+    <td style="width:60%; border:none !important; padding:0; vertical-align:middle; background-color:transparent !important; text-align:left;">
+      <span style="font-size: 1.8em; font-weight: bold; color: #222; white-space: nowrap;">马先德 (Xiande Ma)</span>
     </td>
-    <td style="border:none !important; padding:0; text-align:right; vertical-align:middle; background-color:transparent !important;">
-      <div style="font-size: 1.1em;">
+    <td style="width:40%; border:none !important; padding:0; vertical-align:middle; background-color:transparent !important; text-align:right;">
+      <div style="font-size: 1.1em; white-space: nowrap;">
         <a href="/" style="text-decoration: none; color: #333; font-weight: 600;">Home</a>
-        <span style="color: #ccc; margin: 0 15px;">|</span>
+        <span style="color: #ccc; margin: 0 12px;">|</span>
         <a href="/publications" style="text-decoration: none; color: #666;">Publications</a>
-        <span style="color: #ccc; margin: 0 15px;">|</span>
+        <span style="color: #ccc; margin: 0 12px;">|</span>
         <a href="/cv" style="text-decoration: none; color: #666;">CV</a>
       </div>
     </td>
