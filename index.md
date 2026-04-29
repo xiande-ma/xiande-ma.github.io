@@ -5,7 +5,7 @@ layout: default
 # [Home](/) | [Publications](/publications) | [CV](/cv) | [Contact](#contact)
 
 <p align="center">
-  <img src="profile.jpg" width="300" style="border-radius: 8px; border: 1px solid #ddd;">
+  <img src="child.jpg" width="300" style="border-radius: 8px; border: 1px solid #ddd;">
 </p>
 
 ## Hello! 👋
