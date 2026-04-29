@@ -2,18 +2,26 @@
 layout: default
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 1px solid #eee; padding-bottom: 20px; margin-bottom: 40px;">
-  <div style="font-size: 1.8em; font-weight: bold; color: #222;">马先德 (Xiande Ma)</div>
-  <div style="font-size: 1.1em; padding-bottom: 5px;">
-    <a href="/" style="text-decoration: none; color: #333; font-weight: 600;">Home</a>
-    <span style="color: #ddd; margin: 0 12px;">|</span>
-    <a href="/publications" style="text-decoration: none; color: #666;">Publications</a>
-    <span style="color: #ddd; margin: 0 12px;">|</span>
-    <a href="/cv" style="text-decoration: none; color: #666;">CV</a>
-  </div>
-</div>
+<table style="width:100%; border:none; border-collapse:collapse; margin-bottom: 30px;">
+  <tr style="border:none;">
+    <td style="border:none; padding:0; vertical-align:middle;">
+      <span style="font-size: 1.8em; font-weight: bold; color: #222;">马先德 (Xiande Ma)</span>
+    </td>
+    <td style="border:none; padding:0; text-align:right; vertical-align:middle;">
+      <div style="font-size: 1.1em;">
+        <a href="/" style="text-decoration: none; color: #333; font-weight: 600;">Home</a>
+        <span style="color: #ddd; margin: 0 12px;">|</span>
+        <a href="/publications" style="text-decoration: none; color: #666;">Publications</a>
+        <span style="color: #ddd; margin: 0 12px;">|</span>
+        <a href="/cv" style="text-decoration: none; color: #666;">CV</a>
+      </div>
+    </td>
+  </tr>
+</table>
 
-<div align="center" style="margin: 40px 0;">
+<hr style="height:1px; border:none; border-top:1px solid #eee; margin-top:-10px; margin-bottom:40px;">
+
+<div align="center" style="margin-bottom: 40px;">
   <img src="child.jpg" width="300" style="border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
   <p style="color: #999; font-style: italic; margin-top: 15px; font-size: 0.9em;">(Listening for that Nature Communications call... 📞)</p>
 </div>
