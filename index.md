@@ -2,27 +2,23 @@
 layout: default
 ---
 
-<div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #ddd; padding-bottom: 15px; margin-bottom: 30px;">
-  <div style="font-size: 1.4em;  color: #333;">Xiande Ma (马先德)</div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 25px;">
+  <div style="font-size: 1.6em; font-weight: bold; color: #333;">马先德 (Xiande Ma)</div>
   <div style="font-size: 1.1em;">
-    <a href="/" style="text-decoration: none; color: #333; font-weight: bold;">Home</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
-    <a href="/publications" style="text-decoration: none; color: #666;">Publications</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+    <a href="/" style="text-decoration: none; color: #333; font-weight: bold;">Home</a> 
+    <span style="color: #ccc; margin: 0 10px;">|</span>
+    <a href="/publications" style="text-decoration: none; color: #666;">Publications</a> 
+    <span style="color: #ccc; margin: 0 10px;">|</span>
     <a href="/cv" style="text-decoration: none; color: #666;">CV</a>
   </div>
 </div>
 
 <div align="center" style="margin-bottom: 30px;">
-  <img src="child.jpg" width="350" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <img src="child.jpg" width="320" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
   <p style="color: #888; font-style: italic; margin-top: 10px;">(Listening for that Nature Communications call... 📞)</p>
 </div>
 
-<div style="font-size: 1.1em; line-height: 1.8; color: #444;">
-Hullo! 👋
-
-I am a Ph.D. Candidate in the **Materials Science and Engineering (MSE)** Department at **Northeastern University (NEU)**. My research focuses on the atomic-scale origin of pyramidal dislocation slip in magnesium alloys, combining advanced **HAADF-STEM** characterization with **DFT** and **MD** simulations.
-</div>
-
-<br>
+Hullo! 👋 I am a Ph.D. Candidate in the **Materials Science and Engineering (MSE)** Department at **Northeastern University (NEU)**. My research focuses on the atomic-scale origin of pyramidal dislocation slip in magnesium alloys, combining advanced **HAADF-STEM** characterization with **DFT** and **MD** simulations.
 
 ---
 
