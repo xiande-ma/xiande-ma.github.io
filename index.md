@@ -3,14 +3,17 @@ layout: default
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 25px;">
+  
   <div style="font-size: 1.6em; font-weight: bold; color: #333;">马先德 (Xiande Ma)</div>
+
   <div style="font-size: 1.1em;">
-    <a href="/" style="text-decoration: none; color: #333; font-weight: bold;">Home</a> 
-    <span style="color: #ccc; margin: 0 10px;">|</span>
-    <a href="/publications" style="text-decoration: none; color: #666;">Publications</a> 
-    <span style="color: #ccc; margin: 0 10px;">|</span>
+    <a href="/" style="text-decoration: none; color: #333; font-weight: bold;">Home</a>
+    <span style="color: #ccc; margin: 0 8px;">|</span>
+    <a href="/publications" style="text-decoration: none; color: #666;">Publications</a>
+    <span style="color: #ccc; margin: 0 8px;">|</span>
     <a href="/cv" style="text-decoration: none; color: #666;">CV</a>
   </div>
+
 </div>
 
 <div align="center" style="margin-bottom: 30px;">
