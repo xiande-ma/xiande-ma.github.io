@@ -12,7 +12,7 @@ layout: default
     max-width: 920px; /* 优化后的黄金宽度 */
     margin: 0 auto;
     padding: 25px 45px; /* 减小顶部留白，增加左右纸张感 */
-    color: #000000; /* 保持您要求的纯黑字体 */
+    color: #000000; /* 纯黑字体 */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     line-height: 1.65;
   }
