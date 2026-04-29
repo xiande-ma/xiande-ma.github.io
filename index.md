@@ -2,28 +2,66 @@
 layout: default
 ---
 
-<table style="width:100%; border:none !important; border-collapse:collapse !important; background-color:transparent !important; margin-bottom: 20px;">
-  <tr style="border:none !important; background-color:transparent !important;">
-    <td style="width:60%; border:none !important; padding:0; vertical-align:middle; background-color:transparent !important; text-align:left;">
-      <span style="font-size: 1.8em; font-weight: bold; color: #222; white-space: nowrap;">马先德 (Xiande Ma)</span>
-    </td>
-    <td style="width:40%; border:none !important; padding:0; vertical-align:middle; background-color:transparent !important; text-align:right;">
-      <div style="font-size: 1.1em; white-space: nowrap;">
-        <a href="/" style="text-decoration: none; color: #333; font-weight: 600;">Home</a>
-        <span style="color: #ccc; margin: 0 12px;">|</span>
-        <a href="/publications" style="text-decoration: none; color: #666;">Publications</a>
-        <span style="color: #ccc; margin: 0 12px;">|</span>
-        <a href="/cv" style="text-decoration: none; color: #666;">CV</a>
-      </div>
-    </td>
-  </tr>
-</table>
+<style>
+  /* 1. 模拟 Enze Chen 的全局字体和间距 */
+  body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji";
+    color: #444; /* 使用深灰色而非纯黑 */
+    line-height: 1.6;
+    max-width: 1000px; /* 稍微放大容器宽度 */
+    margin: 0 auto;
+    padding: 20px;
+  }
 
-<hr style="height:1px; border:none; border-top:1px solid #eee; margin-top:-10px; margin-bottom:40px;">
+  /* 2. 优化链接颜色和样式 */
+  a { color: #2e6cb2; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* 3. 顶部 Header 样式：左右弹开 */
+  .custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .name-text {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .nav-links {
+    font-size: 1.1em;
+  }
+
+  .nav-links a {
+    margin-left: 15px;
+    color: #666;
+  }
+  
+  .nav-links a.active {
+    color: #222;
+    font-weight: bold;
+  }
+</style>
+
+<div class="custom-header">
+  <div class="name-text">马先德 (Xiande Ma)</div>
+  <div class="nav-links">
+    <a href="/" class="active">Home</a>
+    <span style="color: #ddd;">|</span>
+    <a href="/publications">Publications</a>
+    <span style="color: #ddd;">|</span>
+    <a href="/cv">CV</a>
+  </div>
+</div>
 
 <div align="center" style="margin-bottom: 40px;">
-  <img src="child.jpg" width="300" style="border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
-  <p style="color: #999; font-style: italic; margin-top: 15px; font-size: 0.9em;">(Listening for that Nature Communications call... 📞)</p>
+  <img src="child.jpg" width="320" style="border-radius: 4px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+  <p style="color: #888; font-style: italic; margin-top: 15px; font-size: 0.95em;">(Listening for that Nature Communications call... 📞)</p>
 </div>
 
 Hullo! 👋 I am a Ph.D. Candidate in the **Materials Science and Engineering (MSE)** Department at **Northeastern University (NEU)**. My research focuses on the atomic-scale origin of pyramidal dislocation slip in magnesium alloys, combining advanced **HAADF-STEM** characterization with **DFT** and **MD** simulations.
@@ -34,24 +72,3 @@ Hullo! 👋 I am a Ph.D. Candidate in the **Materials Science and Engineering (M
 
 * **2026/04:** Our research on "Atomic-scale origin of pyramidal dislocation slip in magnesium alloys" is under review at ***Nature Communications***. 🚀
 * **2024/12:** I was honored to receive the **National Scholarship for Doctoral Students**. 🏆
-* **2024/08:** Presented an academic report at the 3rd National Magnesium Resource Utilization Academic Conference.
-
----
-
-### Research Interests 🔬
-
-* **Lightweight Alloys:** Magnesium-Rare Earth (Mg-RE) systems.
-* **Microstructure:** Interfacial complexion and strengthening mechanisms.
-* **Advanced Characterization:** Atomic-resolution STEM imaging (HAADF-STEM).
-
----
-
-<h3 id="contact">Contact 📧</h3>
-
-* **Email:** maxiande@hotmail.com
-* **Lab:** Professor Ren Yuping's Group, NEU
-* **Location:** Shenyang, China
-
-<br>
-<hr>
-<p style="font-size: 0.8em; color: #999; text-align: center;">© 2026 Xiande Ma. Built with GitHub Pages.</p>
