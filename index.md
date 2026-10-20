@@ -1,100 +1,61 @@
 ---
 layout: default
+title: Home
+permalink: /
 ---
 
 <style>
-  /* 1. 彻底隐藏系统页眉，确保内容置顶 */
   header, .page-header, .site-header { display: none !important; }
-  
-  /* 2. 布局：大比例视觉 */
-  body {
-    background-color: #ffffff !important;
-    max-width: 1173px; /* 精准对齐 */
-    margin: 0 auto;
-    padding: 5px 40px 50px 40px; /* 顶部留白压缩到极致 (5px) */
-    color: #000;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    line-height: 1.6;
-  }
-
-  /* 3. 导航栏：姓名缩小、不加粗，位置整体上移 */
-  .custom-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 30px; /* 减小下方间距 */
-  }
-
-  .nav-name {
-    font-size: 1.35em; /* 进一步缩小姓名，显得更精致 */
-    font-weight: 400; /* 纯自然字重，不加粗 */
-    color: #000;
-    letter-spacing: -0.2px;
-  }
-
-  .nav-links {
-    font-size: 0.95em;
-  }
-
-  .nav-links a {
-    text-decoration: none;
-    color: #444;
-    margin-left: 35px; /* 拉大横向间距，增加大气感 */
-    transition: 0.2s;
-  }
-
+  body { background: #fff !important; max-width: 1173px; margin: 0 auto; padding: 12px 40px 50px; color: #202020; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.65; }
+  .custom-nav { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; border-bottom: 1px solid #eee; padding-bottom: 8px; margin-bottom: 30px; }
+  .nav-name { font-size: 1.35em; font-weight: 400; color: #111; }
+  .nav-links { display: flex; gap: 28px; font-size: .95em; white-space: nowrap; }
+  .nav-links a { color: #444; text-decoration: none; }
   .nav-links a:hover { color: #2e6cb2; }
-
-  /* 4. 图片与文字间距优化 */
-  .profile-container {
-    margin: 10px 0 40px 0;
-  }
-
-  .caption {
-    color: #bbb;
-    font-size: 0.85em;
-    margin-top: 10px;
-  }
-
-  /* 5. 模块标题：纯黑专业感 */
-  h3 {
-    margin-top: 45px;
-    font-size: 1.25em;
-    font-weight: 600;
-    color: #000;
-  }
-
-  hr { border: 0; border-top: 1px solid #f2f2f2; margin: 35px 0; }
+  .profile-container { margin: 10px 0 35px; text-align: center; }
+  .profile-container img { display: block; width: min(310px, 80vw); height: auto; margin: 0 auto; border-radius: 2px; box-shadow: 0 5px 25px rgba(0,0,0,.04); }
+  .caption { color: #777; font-size: .88em; margin-top: 12px; }
+  h3 { margin-top: 38px; font-size: 1.25em; font-weight: 600; color: #111; }
+  hr { border: 0; border-top: 1px solid #f2f2f2; margin: 32px 0; }
+  @media (max-width: 650px) { body { padding: 10px 18px 36px; } .custom-nav { flex-wrap: wrap; } .nav-links { gap: 18px; } }
 </style>
 
-<div class="custom-nav">
+<nav class="custom-nav" aria-label="Main navigation">
   <span class="nav-name">马先德 (Xiande Ma)</span>
-  <div class="nav-links">
-    <a href="/">Home</a>
-    <a href="/publications">Publications</a>
-    <a href="/cv">CV</a>
-  </div>
-</div>
+  <span class="nav-links">
+    <a href="{{ '/' | relative_url }}" aria-current="page">Home</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a href="{{ '/cv/' | relative_url }}">CV</a>
+  </span>
+</nav>
 
-<div class="profile-container" align="center">
-  <img src="child.jpg" width="310" style="border-radius: 2px; box-shadow: 0 5px 25px rgba(0,0,0,0.04);">
-  <p class="caption">(Listening for that Nature Communications call... 📞)</p>
+<div class="profile-container">
+  <img src="{{ '/child.jpg' | relative_url }}" alt="A childhood photograph of Xiande Ma with a telephone" loading="lazy">
+  <p class="caption">A long-standing curiosity about how things work.</p>
 </div>
 
 ### Hello! 👋
-I am a Ph.D. Candidate in the **Materials Science and Engineering (MSE)** Department at **Northeastern University (NEU)**. My research focuses on the atomic-scale origin of pyramidal dislocation slip in magnesium alloys, combining advanced **HAADF-STEM** characterization with **DFT** and **MD** simulations.
 
----
+I am **Xiande Ma**, a Ph.D. candidate in Materials Science and Engineering at **Northeastern University, China**. I study how rare-earth solutes and atomic-scale defects affect the structure and mechanical response of magnesium alloys.
 
-### Recent News 📰
-* **2026/04:** Our research is under review at ***Nature Communications***. 🚀
-* **2024/12:** Awarded the **National Scholarship for Doctoral Students**. 🏆
-* **2024/08:** Presented a report at the 3rd National Magnesium Resource Utilization Academic Conference. 🎤
+My work combines **alloy experiments and HAADF-STEM characterization** with **density functional theory, molecular dynamics, and high-throughput structure screening**. I use VASP, LAMMPS, Slurm-based HPC workflows, and Python data analysis to connect observations at grain boundaries with their underlying energetics and deformation behavior.
 
----
+### Research interests
 
-### Contact ✉️
-* **Email**: maxiande@hotmail.com
-* **Lab**: Professor Ren Yuping's Group, NEU
+- Rare-earth magnesium alloys (Mg–Nd, Mg–Sm), grain-boundary segregation, and interface design
+- Atomic-scale characterization of defects, dislocations, and phase structures
+- DFT and molecular-dynamics simulations; high-throughput structure screening and research computing
+
+### Recent news 📰
+
+- **September 2026:** Our paper on periodic Nd segregation and grain-boundary weakening appeared in *Nano Letters*. [Read the paper](https://doi.org/10.1021/acs.nanolett.6c03381).
+- **April 2026:** Our work on a confined two-dimensional Laves tiling in a magnesium alloy appeared in *Nature Communications*. I contributed atomistic simulations and first-principles calculations as a co-corresponding author. [Read the paper](https://doi.org/10.1038/s41467-026-71932-9).
+- **December 2024:** Awarded the National Scholarship for Doctoral Students.
+
+See my [selected publications]({{ '/publications/' | relative_url }}) and [curriculum vitae]({{ '/cv/' | relative_url }}).
+
+### Contact {#contact}
+
+**Email:** [maxiande@hotmail.com](mailto:maxiande@hotmail.com)  
+**Research group:** Prof. Yuping Ren's group, Northeastern University  
+**ORCID:** [0000-0003-0922-0811](https://orcid.org/0000-0003-0922-0811)
